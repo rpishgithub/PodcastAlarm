@@ -14,7 +14,8 @@ public class Selector {
         Random random = new Random();
         int randomIndex;
 
-        BufferedReader bufferedReader = new BufferedReader(new FileReader("src/main/resources/playlist.txt"));
+//        BufferedReader bufferedReader = new BufferedReader(new FileReader("src/main/resources/playlist.txt"));
+        BufferedReader bufferedReader = new BufferedReader(new FileReader("C:\\Users\\79825\\Documents\\IdeaProjects\\PodcastAlarm\\src\\main\\resources\\playlist.txt"));
         String line = bufferedReader.readLine();
         while (line != null) {
             playlist.add(line);
